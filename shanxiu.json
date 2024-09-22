@@ -1,39 +1,39 @@
 //关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
 
 {
-    "wallpaper": "https://picsum.photos/1280/720/?blur=2",
-    "spider": "./spider.jar",
-    "lives": [
+            "wallpaper" : "https://picsum.photos/1280/720/?blur=2" , "wallpaper" : "https://picsum.photos/1280/720/?blur=2" ,
+                     "spider" : "./spider.jar" ,
+                    "lives" : [
         {
-            "name": "FMM_IPV6",
-            "type": 0,
-            "url": "./lives/FMM_IPV6.txt",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
+                           "name" : "FMM_IPV6" ,
+                          "type" : 0 ,
+                         "url" : "./lives/FMM_IPV6.txt" ,
+                        "epg" : "https://epg.112114.xyz/?ch={name}&date={date}"
         }
-    ],
-    "sites": [
+              ] ,
+            "sites" : [
         {
-            "key": "csp_LocalFile",
-            "name": "💻本地视频",
-            "type": 3,
-            "api": "csp_LocalFile",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "type_flag": 0
-        },
+                  "key" : "csp_LocalFile" ,
+                "name" : "本源视频" ,
+                         "type" : 3 ,
+                        "api" : "csp_LocalFile" ,
+                       "searchable" : 0 ,
+                      "quickSearch" : 0 ,
+                     "filterable" : 0 ,
+                    "type_flag" : 0
+               } ,
         {
-            "key": "drpy_js_豆瓣",
-            "name": "豆瓣[js]",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/drpy.js"
-        },
-        {
-            "key": "drpy_js_奇珍异兽",
-            "name": "奇珍异兽[js]",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
+                  "key" : "drpy_js_豆瓣" ,
+                 "name" : "豆瓣[js]" ,
+                "type" : 3 ,
+               "api" : "./api/drpy2.min.js" ,
+              "ext" : "./js/drpy.js"
+               } , } ,
+              {      {
+                 "key" : "drpy_js_奇珍异兽" , "key" : "drpy_js_奇珍异兽" ,
+                "name" : "奇珍异兽[js]" , "name" : "奇珍异兽[js]" ,
+               "type" : 3 , "type" : 3 ,
+              "api" : "./api/drpy2.min.js" ,  "api" : "./api/drpy2.min.js" ,
             "ext": "./js/奇珍异兽.js"
         },
         {
